@@ -3,7 +3,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { Configuration } from 'webpack';
 
 const config: Configuration = {
-  entry: './src/index.ts',
+  entry: path.resolve(__dirname, 'src'),
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
