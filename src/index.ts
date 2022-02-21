@@ -6,8 +6,8 @@ interface a {
 }
 
 class A implements a {
-  A: number = 10
-  static test: number = 1
+  A = 10
+  static test = 1
 }
 
 console.log(A.test)
