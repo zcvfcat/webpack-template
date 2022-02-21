@@ -1,6 +1,6 @@
-import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import { Configuration } from 'webpack';
+import path from 'path'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import { Configuration } from 'webpack'
 
 const config: Configuration = {
   entry: path.resolve(__dirname, 'src'),
@@ -8,6 +8,7 @@ const config: Configuration = {
     clean: true,
     path: path.resolve(__dirname, 'dist'),
   },
+  target: ['web', 'es5'],
   resolve: { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
   module: {
     rules: [
@@ -25,6 +26,6 @@ const config: Configuration = {
       template: path.resolve(__dirname, './public/index.html'),
     }),
   ],
-};
+}
 
-export default config;
+export default config

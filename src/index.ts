@@ -1,13 +1,13 @@
-const root = document.getElementById('root');
-console.log(root);
+const root = document.getElementById('root')
+console.log(root)
 
 interface a {
-  A: number;
+  A: number
 }
 
 class A implements a {
-  A: number = 10;
-  static test: number = 1;
+  A: number = 10
+  static test: number = 1
 }
 
-console.log(A.test);
+console.log(A.test)
