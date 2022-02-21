@@ -5,6 +5,7 @@ import { Configuration } from 'webpack';
 const config: Configuration = {
   entry: path.resolve(__dirname, 'src'),
   output: {
+    clean: true,
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
