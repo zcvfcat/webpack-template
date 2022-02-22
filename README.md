@@ -1,18 +1,9 @@
-# FUNDAMENTAL WEBPACK-TS BASE
+# WEB
 
-## WEBPACK CONFIG
+## 출처
 
-- entry
-  - 진입점
-- output
-- modules(loader)
-- plugins
-  - `html-webpack-plugin`
-    - html에 js 붙이기
-
-## BABEL CONFIG
-
-- preset-env
-  - 바벨 권장 설정
-- @babel/plugin-transform-runtime
-  - 모든 browser에 맞게 변환
+> [ts](https://www.typescriptlang.org/)  
+> [js](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)  
+> [webpack](https://webpack.js.org/)  
+> [babel](https://babeljs.io/)  
+> [jest](https://jestjs.io/)
