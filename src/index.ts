@@ -1,4 +1,4 @@
-const root = document.getElementById('root')
+export const root = document.getElementById('root')
 console.log(root)
 
 interface a {
