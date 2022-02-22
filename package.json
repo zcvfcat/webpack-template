@@ -1,7 +1,7 @@
 {
-  "name": "web",
+  "name": "webpack-ts",
   "version": "0.0.001",
-  "description": "WEB",
+  "description": "FUNDAMENTAL WEBPACK-TS BASE",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open",
