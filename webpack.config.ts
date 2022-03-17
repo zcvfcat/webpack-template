@@ -3,6 +3,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import { Configuration } from 'webpack'
 
 const config: Configuration = {
+  devtool: 'source-map',
+  cache: true,
   entry: path.resolve(__dirname, 'src'),
   output: {
     clean: true,
